@@ -1,0 +1,6 @@
+framework module Pods_SchedulueEventTests {
+  umbrella header "Pods-SchedulueEventTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

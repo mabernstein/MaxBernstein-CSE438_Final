@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0013ECC41FC1DCD25AF2CEFB13E25C97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		2F95D01AF59769AF4090D631CD2B1CA4 /* Pods-SchedulueEventTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69913CE3092C8FBEBEE16B49FF3B50B2 /* Pods-SchedulueEventTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3814BF49B5203E7C589A780219C7327F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		510B2AA2FC6164C9C7D134CBCBB3FC76 /* Pods-SchedulueEventUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C87F9E59B37C09FF195A62B8CE2BC5AF /* Pods-SchedulueEventUITests-dummy.m */; };
+		51EA19035A84ED287C999CC3367AD0C8 /* Pods-SchedulueEventUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A0A8650FF27065F135618875537016 /* Pods-SchedulueEventUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94D35DCB2698AD826970682797612C18 /* Pods-SchedulueEventTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B33CA9E7ABD3B64CEE80AED6C5E36E /* Pods-SchedulueEventTests-dummy.m */; };
+		B57DB83309D3ABF152D80A75E8E97E15 /* Pods-SchedulueEvent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A2744DEDF83A6A428C5C2E455768CF /* Pods-SchedulueEvent-dummy.m */; };
+		DA3F106FDCFADFA060E11F215AB18C4C /* Pods-SchedulueEvent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36B1745DCB957F78126EDBF071D29E47 /* Pods-SchedulueEvent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F07EDA681E667B8CED28DC592CB8028C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5948A2FE05E91712608BB6416F7A1FED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D3F6FD04147C2900A4DFB680DA46D8A;
+			remoteInfo = "Pods-SchedulueEvent";
+		};
+		B582F77CF8A640DD99F5FA93174BFA2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D3F6FD04147C2900A4DFB680DA46D8A;
+			remoteInfo = "Pods-SchedulueEvent";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B5A2153051C6C43966301516E96993 /* Pods-SchedulueEventTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SchedulueEventTests-resources.sh"; sourceTree = "<group>"; };
+		0423AA2CEC8AC4F46A3427E5CAE9E0A0 /* Pods-SchedulueEventTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SchedulueEventTests-frameworks.sh"; sourceTree = "<group>"; };
+		06DCF73B9CF87AC7FB3998A11B2C23E9 /* Pods-SchedulueEventTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SchedulueEventTests.release.xcconfig"; sourceTree = "<group>"; };
+		08EB3C57184CD71EB841A6927383AFA1 /* Pods-SchedulueEventUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SchedulueEventUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1BACF2A2F7F5106A0654BF313F9802EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A33BCE73959540A2AA8AE1EAA6776DA /* Pods-SchedulueEvent-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SchedulueEvent-acknowledgements.plist"; sourceTree = "<group>"; };
+		30068F8BB232895C4F7DB28358545E92 /* Pods-SchedulueEvent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SchedulueEvent.release.xcconfig"; sourceTree = "<group>"; };
+		3137346017ACC1D9AFD0B1ABDAE788B3 /* Pods_SchedulueEventUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SchedulueEventUITests.framework; path = "Pods-SchedulueEventUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B1745DCB957F78126EDBF071D29E47 /* Pods-SchedulueEvent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SchedulueEvent-umbrella.h"; sourceTree = "<group>"; };
+		393982C12A8CF02FCDF92B377D19BF69 /* Pods-SchedulueEvent-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SchedulueEvent-acknowledgements.markdown"; sourceTree = "<group>"; };
+		395BF9369BA2576F365F153CA0B273AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6F1457FBB1AC4FF8E1AE6148FA226E /* Pods-SchedulueEventUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SchedulueEventUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		480CA9AE07E23E0C955813E6F709A1D8 /* Pods-SchedulueEvent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SchedulueEvent.debug.xcconfig"; sourceTree = "<group>"; };
+		5BE9AB0F663BF5AEF812E90468ACC33A /* Pods-SchedulueEventTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SchedulueEventTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65A2744DEDF83A6A428C5C2E455768CF /* Pods-SchedulueEvent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SchedulueEvent-dummy.m"; sourceTree = "<group>"; };
+		66EF337116AE2AD574D7D463AAE78664 /* Pods-SchedulueEventTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SchedulueEventTests.modulemap"; sourceTree = "<group>"; };
+		69913CE3092C8FBEBEE16B49FF3B50B2 /* Pods-SchedulueEventTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SchedulueEventTests-umbrella.h"; sourceTree = "<group>"; };
+		73704607DF68DD7CE6A72162493B593A /* Pods-SchedulueEventUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SchedulueEventUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73B33CA9E7ABD3B64CEE80AED6C5E36E /* Pods-SchedulueEventTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SchedulueEventTests-dummy.m"; sourceTree = "<group>"; };
+		7FDE65ACA5E62460C463827D08F2EE34 /* Pods-SchedulueEventUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SchedulueEventUITests-resources.sh"; sourceTree = "<group>"; };
+		849908FA2B652CD902EF7D381671E801 /* Pods_SchedulueEventTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SchedulueEventTests.framework; path = "Pods-SchedulueEventTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90162B7862C93B63687889663D5D33EB /* Pods-SchedulueEvent-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SchedulueEvent-resources.sh"; sourceTree = "<group>"; };
+		9029480109EA9E70418C71E427CFC1E7 /* Pods-SchedulueEventUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SchedulueEventUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92359344EC3ABD87780F9F238418B430 /* Pods-SchedulueEventTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SchedulueEventTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99A0A8650FF27065F135618875537016 /* Pods-SchedulueEventUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SchedulueEventUITests-umbrella.h"; sourceTree = "<group>"; };
+		9D15C5CBF26B572D95985250A70E4C22 /* Pods-SchedulueEvent-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SchedulueEvent-frameworks.sh"; sourceTree = "<group>"; };
+		A5FD347400D15C2424B34FD35C4E635E /* Pods-SchedulueEventTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SchedulueEventTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C87F9E59B37C09FF195A62B8CE2BC5AF /* Pods-SchedulueEventUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SchedulueEventUITests-dummy.m"; sourceTree = "<group>"; };
+		D3E3F10AE38BBBA99E52A9D634484B18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E66E8126F4AF4CE1835AF7B70BC238E5 /* Pods_SchedulueEvent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SchedulueEvent.framework; path = "Pods-SchedulueEvent.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F374C0CD8CCD986AB78C7E1EEA7C202D /* Pods-SchedulueEventUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SchedulueEventUITests.modulemap"; sourceTree = "<group>"; };
+		F92554F19D9524104D3010350AF5DBB3 /* Pods-SchedulueEventUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SchedulueEventUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FB94AD3C1B21120FF909D9379B058768 /* Pods-SchedulueEvent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SchedulueEvent.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BB9F0316BD72E4137A754246939AC66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07EDA681E667B8CED28DC592CB8028C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C8CCC291E5824B2F625A972143A51FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3814BF49B5203E7C589A780219C7327F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7FE1076B148F093EE5491A7E44C716A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0013ECC41FC1DCD25AF2CEFB13E25C97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7668C4A5032A99D8CF3E5CA294BB2D9C /* Pods-SchedulueEvent */ = {
+			isa = PBXGroup;
+			children = (
+				395BF9369BA2576F365F153CA0B273AD /* Info.plist */,
+				FB94AD3C1B21120FF909D9379B058768 /* Pods-SchedulueEvent.modulemap */,
+				393982C12A8CF02FCDF92B377D19BF69 /* Pods-SchedulueEvent-acknowledgements.markdown */,
+				2A33BCE73959540A2AA8AE1EAA6776DA /* Pods-SchedulueEvent-acknowledgements.plist */,
+				65A2744DEDF83A6A428C5C2E455768CF /* Pods-SchedulueEvent-dummy.m */,
+				9D15C5CBF26B572D95985250A70E4C22 /* Pods-SchedulueEvent-frameworks.sh */,
+				90162B7862C93B63687889663D5D33EB /* Pods-SchedulueEvent-resources.sh */,
+				36B1745DCB957F78126EDBF071D29E47 /* Pods-SchedulueEvent-umbrella.h */,
+				480CA9AE07E23E0C955813E6F709A1D8 /* Pods-SchedulueEvent.debug.xcconfig */,
+				30068F8BB232895C4F7DB28358545E92 /* Pods-SchedulueEvent.release.xcconfig */,
+			);
+			name = "Pods-SchedulueEvent";
+			path = "Target Support Files/Pods-SchedulueEvent";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FC2672C0349E41B9E37E0167E9A1DFEB /* Products */,
+				BC6D692E7B98A2786908F44593C1AE29 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC6D692E7B98A2786908F44593C1AE29 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7668C4A5032A99D8CF3E5CA294BB2D9C /* Pods-SchedulueEvent */,
+				E9D342BFB9AB7BBC0626E4E82568D51A /* Pods-SchedulueEventTests */,
+				CB256A9FDD5F1F4DC47E3CE577970C81 /* Pods-SchedulueEventUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CB256A9FDD5F1F4DC47E3CE577970C81 /* Pods-SchedulueEventUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BACF2A2F7F5106A0654BF313F9802EC /* Info.plist */,
+				F374C0CD8CCD986AB78C7E1EEA7C202D /* Pods-SchedulueEventUITests.modulemap */,
+				9029480109EA9E70418C71E427CFC1E7 /* Pods-SchedulueEventUITests-acknowledgements.markdown */,
+				73704607DF68DD7CE6A72162493B593A /* Pods-SchedulueEventUITests-acknowledgements.plist */,
+				C87F9E59B37C09FF195A62B8CE2BC5AF /* Pods-SchedulueEventUITests-dummy.m */,
+				08EB3C57184CD71EB841A6927383AFA1 /* Pods-SchedulueEventUITests-frameworks.sh */,
+				7FDE65ACA5E62460C463827D08F2EE34 /* Pods-SchedulueEventUITests-resources.sh */,
+				99A0A8650FF27065F135618875537016 /* Pods-SchedulueEventUITests-umbrella.h */,
+				3D6F1457FBB1AC4FF8E1AE6148FA226E /* Pods-SchedulueEventUITests.debug.xcconfig */,
+				F92554F19D9524104D3010350AF5DBB3 /* Pods-SchedulueEventUITests.release.xcconfig */,
+			);
+			name = "Pods-SchedulueEventUITests";
+			path = "Target Support Files/Pods-SchedulueEventUITests";
+			sourceTree = "<group>";
+		};
+		E9D342BFB9AB7BBC0626E4E82568D51A /* Pods-SchedulueEventTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3E3F10AE38BBBA99E52A9D634484B18 /* Info.plist */,
+				66EF337116AE2AD574D7D463AAE78664 /* Pods-SchedulueEventTests.modulemap */,
+				5BE9AB0F663BF5AEF812E90468ACC33A /* Pods-SchedulueEventTests-acknowledgements.markdown */,
+				92359344EC3ABD87780F9F238418B430 /* Pods-SchedulueEventTests-acknowledgements.plist */,
+				73B33CA9E7ABD3B64CEE80AED6C5E36E /* Pods-SchedulueEventTests-dummy.m */,
+				0423AA2CEC8AC4F46A3427E5CAE9E0A0 /* Pods-SchedulueEventTests-frameworks.sh */,
+				01B5A2153051C6C43966301516E96993 /* Pods-SchedulueEventTests-resources.sh */,
+				69913CE3092C8FBEBEE16B49FF3B50B2 /* Pods-SchedulueEventTests-umbrella.h */,
+				A5FD347400D15C2424B34FD35C4E635E /* Pods-SchedulueEventTests.debug.xcconfig */,
+				06DCF73B9CF87AC7FB3998A11B2C23E9 /* Pods-SchedulueEventTests.release.xcconfig */,
+			);
+			name = "Pods-SchedulueEventTests";
+			path = "Target Support Files/Pods-SchedulueEventTests";
+			sourceTree = "<group>";
+		};
+		FC2672C0349E41B9E37E0167E9A1DFEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E66E8126F4AF4CE1835AF7B70BC238E5 /* Pods_SchedulueEvent.framework */,
+				849908FA2B652CD902EF7D381671E801 /* Pods_SchedulueEventTests.framework */,
+				3137346017ACC1D9AFD0B1ABDAE788B3 /* Pods_SchedulueEventUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0488559D6BA8BEA0F2A9100E2AF07C48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EA19035A84ED287C999CC3367AD0C8 /* Pods-SchedulueEventUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1808184AB7D9B795B29BD5241E84ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3F106FDCFADFA060E11F215AB18C4C /* Pods-SchedulueEvent-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D48175CDF36F51BBD0C17A1C3C7126 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F95D01AF59769AF4090D631CD2B1CA4 /* Pods-SchedulueEventTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28C19629C2660FA261D16E6DA4C67FE9 /* Pods-SchedulueEventUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47F4AD3EDDB73FA05966A15248D34DA /* Build configuration list for PBXNativeTarget "Pods-SchedulueEventUITests" */;
+			buildPhases = (
+				0488559D6BA8BEA0F2A9100E2AF07C48 /* Headers */,
+				7D221A63CA8D6DC92D6D9F917314E056 /* Sources */,
+				2BB9F0316BD72E4137A754246939AC66 /* Frameworks */,
+				4A8CF12E349D1E8DD9DCEE0EEBA76BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AF6D150DBB2621EBD4FD273CF8B6F0D /* PBXTargetDependency */,
+			);
+			name = "Pods-SchedulueEventUITests";
+			productName = "Pods-SchedulueEventUITests";
+			productReference = 3137346017ACC1D9AFD0B1ABDAE788B3 /* Pods_SchedulueEventUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D3F6FD04147C2900A4DFB680DA46D8A /* Pods-SchedulueEvent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D1A7FCB6646A30398DB506F60A84AB /* Build configuration list for PBXNativeTarget "Pods-SchedulueEvent" */;
+			buildPhases = (
+				BB1808184AB7D9B795B29BD5241E84ED /* Headers */,
+				36CAC80CE0E6381FC4F7E9FFC0632075 /* Sources */,
+				7C8CCC291E5824B2F625A972143A51FC /* Frameworks */,
+				AD88043DC8C263B45C9C5909688C78B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SchedulueEvent";
+			productName = "Pods-SchedulueEvent";
+			productReference = E66E8126F4AF4CE1835AF7B70BC238E5 /* Pods_SchedulueEvent.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5F5C0F8106C277CD1E6610A9962983C /* Pods-SchedulueEventTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B9D1B79A29B2AEB2EBD93BF7207B21 /* Build configuration list for PBXNativeTarget "Pods-SchedulueEventTests" */;
+			buildPhases = (
+				C4D48175CDF36F51BBD0C17A1C3C7126 /* Headers */,
+				86247FDBE3FC5EDECA124675DCAC914C /* Sources */,
+				F7FE1076B148F093EE5491A7E44C716A /* Frameworks */,
+				60DB18093382A2BC582FC444DE47EAB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7F2561CB5250CBB7230FEF119980EF9 /* PBXTargetDependency */,
+			);
+			name = "Pods-SchedulueEventTests";
+			productName = "Pods-SchedulueEventTests";
+			productReference = 849908FA2B652CD902EF7D381671E801 /* Pods_SchedulueEventTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FC2672C0349E41B9E37E0167E9A1DFEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D3F6FD04147C2900A4DFB680DA46D8A /* Pods-SchedulueEvent */,
+				B5F5C0F8106C277CD1E6610A9962983C /* Pods-SchedulueEventTests */,
+				28C19629C2660FA261D16E6DA4C67FE9 /* Pods-SchedulueEventUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A8CF12E349D1E8DD9DCEE0EEBA76BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DB18093382A2BC582FC444DE47EAB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD88043DC8C263B45C9C5909688C78B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36CAC80CE0E6381FC4F7E9FFC0632075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57DB83309D3ABF152D80A75E8E97E15 /* Pods-SchedulueEvent-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D221A63CA8D6DC92D6D9F917314E056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510B2AA2FC6164C9C7D134CBCBB3FC76 /* Pods-SchedulueEventUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86247FDBE3FC5EDECA124675DCAC914C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D35DCB2698AD826970682797612C18 /* Pods-SchedulueEventTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AF6D150DBB2621EBD4FD273CF8B6F0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SchedulueEvent";
+			target = 8D3F6FD04147C2900A4DFB680DA46D8A /* Pods-SchedulueEvent */;
+			targetProxy = B582F77CF8A640DD99F5FA93174BFA2A /* PBXContainerItemProxy */;
+		};
+		A7F2561CB5250CBB7230FEF119980EF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SchedulueEvent";
+			target = 8D3F6FD04147C2900A4DFB680DA46D8A /* Pods-SchedulueEvent */;
+			targetProxy = 5948A2FE05E91712608BB6416F7A1FED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16BC524EDE752B9BB72D7E267116A89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1DF68876DF2AD07A12482477C1AA7DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3A88317E7F673B07EB46DCEC7EA86D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480CA9AE07E23E0C955813E6F709A1D8 /* Pods-SchedulueEvent.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SchedulueEvent/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SchedulueEvent/Pods-SchedulueEvent.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B7B5357297FA7888806E036B16D4E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30068F8BB232895C4F7DB28358545E92 /* Pods-SchedulueEvent.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SchedulueEvent/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SchedulueEvent/Pods-SchedulueEvent.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4289E2FE6A12CE590A6E51D2E0E9648F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06DCF73B9CF87AC7FB3998A11B2C23E9 /* Pods-SchedulueEventTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SchedulueEventTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SchedulueEventTests/Pods-SchedulueEventTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52DF2DA00BF4A81512E5F0666AA81FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FD347400D15C2424B34FD35C4E635E /* Pods-SchedulueEventTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SchedulueEventTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SchedulueEventTests/Pods-SchedulueEventTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA0278C33FB10E22A0C7CBDAD9A5CD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92554F19D9524104D3010350AF5DBB3 /* Pods-SchedulueEventUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SchedulueEventUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SchedulueEventUITests/Pods-SchedulueEventUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF6BD9829B219A5DAD930BCED3A937EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6F1457FBB1AC4FF8E1AE6148FA226E /* Pods-SchedulueEventUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SchedulueEventUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SchedulueEventUITests/Pods-SchedulueEventUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BC524EDE752B9BB72D7E267116A89A /* Debug */,
+				1DF68876DF2AD07A12482477C1AA7DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B9D1B79A29B2AEB2EBD93BF7207B21 /* Build configuration list for PBXNativeTarget "Pods-SchedulueEventTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DF2DA00BF4A81512E5F0666AA81FCB /* Debug */,
+				4289E2FE6A12CE590A6E51D2E0E9648F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47F4AD3EDDB73FA05966A15248D34DA /* Build configuration list for PBXNativeTarget "Pods-SchedulueEventUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6BD9829B219A5DAD930BCED3A937EB /* Debug */,
+				DA0278C33FB10E22A0C7CBDAD9A5CD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D1A7FCB6646A30398DB506F60A84AB /* Build configuration list for PBXNativeTarget "Pods-SchedulueEvent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A88317E7F673B07EB46DCEC7EA86D38 /* Debug */,
+				3B7B5357297FA7888806E036B16D4E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
